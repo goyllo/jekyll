@@ -202,6 +202,10 @@ dynamically scaling to almost unlimited traffic. This approach has the
 benefit of being about the cheapest hosting option available for
 low-volume blogs as you only pay for what you use.
 
+## Google Firebase
+
+You can also use [Google Firebase to host your jekyll website for free](https://www.goyllo.com/jekyll/deploy/google-firebase/). It has free SSL that provide end to end encryption which is lack in Cloudflare Free universal SSL. It also [support server side 301 redirection, htaccess rewrite rules and custom headers setting](https://firebase.google.com/docs/hosting/url-redirects-rewrites), which gives you more control on caching.
+
 ## OpenShift
 
 If you'd like to deploy your site to an OpenShift gear, there's [a cartridge
